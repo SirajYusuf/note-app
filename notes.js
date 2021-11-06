@@ -5,7 +5,7 @@ const fs = require('fs')
 
 const addNote = (title, body) => {
  const notes = loadNotes()  
- 
+ console.log(notes)
  const duplicateNotes = notes.find((note) => note.title === title)
 
 
